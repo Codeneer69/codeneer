@@ -8,4 +8,5 @@ def blogHome(request):
     return render(request, 'blog/blogHome.html', context)
 
 def blogPost(request, slug):
+    
     return render(request, 'blog/blogPost.html')
