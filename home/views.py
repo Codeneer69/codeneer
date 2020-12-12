@@ -13,6 +13,9 @@ def about(request):
 def pythontut(request):
     return render(request, 'home/pythontut.html')
 
+def djtut(request):
+    return render(request,'home/djtut.html')     
+
 def contact(request):
     if request.method=='POST':
         name = request.POST['name']
